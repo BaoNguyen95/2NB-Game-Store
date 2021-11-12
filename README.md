@@ -14,3 +14,7 @@ _The website is seem like e-commerce web, but the product is Game, I did this pr
 ### 2. Back-end
 - The source code was developed by `Nodejs, MongoDB, Socket.io`
 - Using Heroku to deploy the backend and mLab for the database
+
+
+- Start date: 11/2019
+- No more developmant
