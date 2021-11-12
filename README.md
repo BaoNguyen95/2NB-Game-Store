@@ -12,5 +12,5 @@ _The website is seem like e-commerce web, but the product is Game, I did this pr
 - Technologies: `Typescript, socket.io, React Hooks`
 
 ### 2. Back-end
-- The source code was developed by Nodejs, MongoDB, Socket.io
+- The source code was developed by `Nodejs, MongoDB, Socket.io`
 - Using Heroku to deploy the backend and mLab for the database
