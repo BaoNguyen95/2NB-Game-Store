@@ -1,0 +1,17 @@
+@import "./variable.colors";
+
+.userImage {
+  background: $emerald-green;
+  border-radius: 50px;
+  box-shadow: $box-shadow;
+  border: 1.5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.custom-icon {
+  color: $main-color;
+}

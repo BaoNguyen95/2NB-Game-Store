@@ -1,0 +1,102 @@
+@import "../../styles/variable.colors";
+.container {
+  display: flex;
+  background-image: $top-bar-gradient;
+  box-shadow: $box-shadow;
+  justify-content: space-between;
+  // overflow: hidden;
+  // position: fixed;
+  // top: 0;
+  // width: 100%;
+  .logo {
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  .searchContent {
+    padding: 15px;
+  }
+
+  span {
+    flex: 1;
+    color: white;
+    font-size: 20px;
+  }
+
+  input {
+    border: none;
+    padding: 6px 0px 4px 10px;
+    width: -webkit-fill-available;
+  }
+
+  .topBarButton {
+    flex: 2 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    button {
+      margin: 0 10px;
+      padding: 0 10px;
+    }
+  }
+  .loginContent {
+    padding-left: 50px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  #btn-game:hover .menu {
+    display: block;
+    color: red;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    background: white;
+    margin-top: 20px;
+  }
+
+  @media only screen and (max-width: 720px) {
+    .switchView {
+      padding: 0px;
+    }
+    .searchContent {
+      display: none;
+    }
+
+    .topBarButton {
+      display: none;
+    }
+  }
+}
+
+.drawer {
+  width: 350px;
+  .userBackground {
+    // background-image: url("../../assets/user_background.jpg") 0 0 / cover no-repeat;
+    background-image: $top-bar-gradient;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    .userInfo {
+      color: white;
+    }
+  }
+
+  @media only screen and (max-width: 720px) {
+    .MuiDrawer-paper {
+      widows: 300px;
+    }
+
+    .userBackground {
+      width: auto;
+    }
+  }
+}

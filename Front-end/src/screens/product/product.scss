@@ -1,0 +1,11 @@
+.landing-content {
+  .list-product {
+    display: flex;
+    justify-content: start;
+    .productContent {
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+  }
+}

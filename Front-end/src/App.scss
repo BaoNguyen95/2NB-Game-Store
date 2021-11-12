@@ -1,0 +1,65 @@
+@import "./styles//variable.colors";
+@import "./styles/component.styles";
+
+.switchView {
+  padding: 20px;
+  // padding-top: 5px;
+  .topContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .title {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 2em;
+      font-weight: bold;
+      color: $main-color;
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .switchView {
+    padding: 0px;
+  }
+}
+
+* {
+  font-size: 100%;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+// Scroll Bar
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $main-color;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $emerald-green;
+  transition: 0.3s;
+}
+
+.no-select {
+  user-select: none;
+}
+
+// custom material ui
